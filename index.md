@@ -2,7 +2,7 @@
 title: Stata keywords and packages
 layout: withtable
 ---
-Each entry in the database will list a data provider, an extract from the terms of use, and the source URL for the terms of use. There is an indication on whether extracts from the data provider can be redistributed by academics as part of replication packages (an important caveat!). When available, there may be separate page with further details.
+Each entry in the database will list a **keyword** (something that Stata treats as a command or something similar), the **package** that contains it (with a link to search for the package on IDEAS), the **filename** where it is found, and the **extension** of the file.
 
 > Search the database for any keyword in any field.
 
@@ -23,7 +23,7 @@ Each entry in the database will list a data provider, an extract from the terms 
   <!-- keyword,package,filename,extension -->
   <tr>
     <td> {{ row["keyword"] }} </td>
-    <td> <a href="https://ideas.repec.org/cgi-bin/htsearch?form=extended&wm=wrd&dt=range&ul=%25%2Fc%2F%25&q={{ row["package"] }}&cmd=Search!&wf=00F0&s=R" alt="Link to IDEAS">{{ row["package"] }}</a> </td>
+    <td> <a href="https://ideas.repec.org/cgi-bin/htsearch?form=extended&wm=wrd&dt=range&ul=%25%2Fc%2F%25&q={{ row["package"] }}&cmd=Search!&wf=00F0&s=R" alt="Link to IDEAS" target="_blank">{{ row["package"] }}</a> </td>
     <td> {{ row["filename"] }} </td>
     <td> {{ row["extension"] }} </td>
   </tr>

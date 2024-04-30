@@ -23,7 +23,7 @@ Each entry in the database will list a data provider, an extract from the terms 
   <!-- keyword,package,filename,extension -->
   <tr>
     <td> {{ row["keyword"] }} </td>
-    <td> {{ row["package"] }} </td>
+    <td> <a href="https://ideas.repec.org/cgi-bin/htsearch?form=extended&wm=wrd&dt=range&ul=%25%2Fc%2F%25&q={{ row["package"] }}&cmd=Search!&wf=00F0&s=R" alt="Link to IDEAS">{{ row["package"] }}</a> </td>
     <td> {{ row["filename"] }} </td>
     <td> {{ row["extension"] }} </td>
   </tr>

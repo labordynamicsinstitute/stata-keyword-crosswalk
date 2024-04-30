@@ -1,0 +1,8 @@
+{% if page.title %}
+<h2>{{ page.title }}</h2> 
+{% endif %}
+
+
+{%if page.doi %}
+<p><a href="https://doi.org/{{ page.doi }}"><img src="https://zenodo.org/badge/DOI/{{ page.doi }}.svg" alt="DOI" /></a></p>
+{% endif %}

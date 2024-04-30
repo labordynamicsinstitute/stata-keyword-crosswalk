@@ -14,7 +14,6 @@ Each entry in the database will list a data provider, an extract from the terms 
     <tr>
       {% for cell in row %}
         <th>{{ cell[0] }}</th>
-        {% endif %}
       {% endfor %}
     </tr>
     </thead>

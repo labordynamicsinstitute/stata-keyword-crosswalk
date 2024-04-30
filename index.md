@@ -32,4 +32,4 @@ Each entry in the database will list a **keyword** (something that Stata treats 
 
 
 
-To download the entire database, [click here](https://raw.githubusercontent.com/social-science-data-editors/reference/main/_data/termsofuse.csv).
+To download the entire database, [click here](https://raw.githubusercontent.com/{{ site.github.repository_nwo }}/main/_data/keyword-package-crosswalk.csv).

@@ -15,7 +15,11 @@
 # in the templates via {{ site.myvariable }}.
 title: Stata Keyword Crosswalk
 version: 1.0rc1
-
+authors: 
+  - name: Lars Vilhuber
+    email: lars@vilhuber.com
+  - name: Sergio Correia
+    email: sergiocorreia@gmail.com
 # authors: This should be replaced by contributor lookup - there's a Github thing to do that.
 description: >- # this means to ignore newlines until "baseurl:"
   A crosswalk between Stata commands on SSC, and the packages they are contained in.

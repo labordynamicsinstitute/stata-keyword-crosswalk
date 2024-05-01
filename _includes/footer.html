@@ -11,9 +11,9 @@
               <li class="p-name">
               {% for author in site.authors %}
                   {% if forloop.last %}
-                    {{ author }}
+                    {{ author.name }}
                   {% else %}
-                    {{ author }},
+                    {{ author.name }},
                   {% endif %}
                 {% endfor %}
               </li>
